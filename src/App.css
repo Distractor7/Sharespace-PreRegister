@@ -1,0 +1,163 @@
+/* Header Style */
+.heading {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  font-weight: 300;
+  padding-left: 100px;
+  border-bottom: 1px solid #37cab9;
+  border-bottom: 1px solid #37cab94a;
+  padding-bottom: 40px;
+  width: 1400px;
+  background-color: #37cab9ad;
+  margin: 0;
+  padding-top: 30px;
+}
+
+.header {
+  position: fixed;
+}
+
+nav a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+  margin-right: 30px;
+  color: rgb(255, 255, 255);
+}
+
+nav {
+  position: absolute;
+  top: 60px;
+  right: 200px;
+}
+
+.separator {
+  border-left: 1px solid #ffffff;
+  padding-left: 20px;
+}
+
+.howItWorks {
+  margin-right: 20px;
+}
+
+/* Grid Styles */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  padding-top: 180px;
+}
+
+.gridItem {
+  background-color: rgba(255, 255, 255, 0.157);
+  border: none;
+  padding: 20px;
+  justify-self: stretch;
+  align-self: stretch;
+  padding-left: 100px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    grid-template-columns: 1fr; /* One column in smaller screens */
+  }
+}
+
+.item {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 200;
+  font-size: 35px;
+  padding-left: 120px;
+}
+
+.paragraphs {
+  width: 500px;
+  position: absolute;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  text-align: justify;
+  font-weight: 300;
+  padding-top: 20px;
+  padding-left: 120px;
+  font-size: 20px;
+}
+
+/* Images Css */
+
+.boxImg {
+  height: 370px;
+  width: 370px;
+  margin-left: 500px;
+  padding-left: 250px;
+  padding-bottom: 100px;
+}
+
+.highlight {
+  color: #37cab9;
+}
+
+.x {
+  color: #ffffff;
+}
+
+/* Contact Page */
+
+.contactDiv {
+  position: absolute;
+  margin-top: 150px;
+}
+
+/* Registration Page */
+
+.contactDiv {
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* This will center the form vertically */
+  background-color: #ffffff; /* Adjust as needed */
+  margin-top: 150px;
+  margin-left: 100px;
+  margin-top: 200px;
+}
+
+.registration-form {
+  background-color: #ffffff; /* Adjust as needed */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  display: fixed;
+}
+
+.registration-form label,
+.registration-form input,
+.registration-form button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.registration-form label {
+  margin-bottom: 10px;
+}
+
+.registration-form input {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ced4da; /* Adjust as needed */
+  border-radius: 4px;
+}
+
+.registration-form button {
+  padding: 10px;
+  background-color: #37cab9; /* Adjust as needed */
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.registration-form button:hover {
+  background-color: #2fa897; /* Adjust as needed */
+}
