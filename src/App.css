@@ -25,6 +25,24 @@ nav a {
   color: rgb(255, 255, 255);
 }
 
+nav a:hover {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+
+  color: rgb(37, 148, 208);
+  transition: 1.3s ease-in-out;
+}
+
+nav a:hover:mouseout {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 25px;
+
+  color: rgb(37, 148, 208);
+  transition: 1.3s;
+}
+
 nav {
   position: absolute;
   top: 60px;
@@ -78,7 +96,7 @@ nav {
   line-height: 1.6;
   text-align: justify;
   font-weight: 300;
-  padding-top: 20px;
+  padding-top: 0px;
   padding-left: 120px;
   font-size: 20px;
 }
@@ -128,6 +146,7 @@ nav {
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
   width: 300px;
   display: fixed;
+  margin-left: 150px;
 }
 
 .registration-form label,
@@ -160,4 +179,28 @@ nav {
 
 .registration-form button:hover {
   background-color: #2fa897; /* Adjust as needed */
+}
+
+.register {
+  display: flex;
+  float: right;
+  padding-left: 250px;
+}
+
+.flex-container {
+  display: flex; /* Enable Flexbox */
+  align-items: flex-start; /* Align to the start of flex container */
+  gap: 20px; /* Adjust as needed */
+  margin-left: 20px;
+}
+
+.info-container {
+  /* If you want to style the new container, do it here */
+  margin-left: 0;
+  padding: 0;
+}
+
+.register-description {
+  /* If you want to add styling for the paragraph, do it here */
+  padding-left: 250px;
 }
